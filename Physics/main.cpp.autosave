@@ -1,0 +1,15 @@
+#include <iostream>
+#include "graphics.h"
+
+#define PI 3.14159;
+
+using namespace std;
+using namespace mssm;
+
+void graphicsMain(Graphics& g) {
+    
+}
+
+int main() {
+    Graphics g("Bounce!", graphicsMain, 640, 420);
+}
